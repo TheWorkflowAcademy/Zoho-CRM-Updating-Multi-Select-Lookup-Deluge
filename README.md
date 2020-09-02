@@ -39,7 +39,7 @@ mp.put("lookupfield_B", "B_record_ID");
 create = zoho.crm.createRecord("Linking_Module_Name",mp);
 ```
 
-Note: 
+Notes: 
 * Replace "lookupfield_A" with the lookup field name to module A (eg; Contacts) and "A_record_ID" with the relevant record ID
 * Replace "lookupfield_B" with the lookup field name to module B (eg; Deals) and "B_record_ID" with the relevant record ID
 * Replace "Linking_Module_Name" with the linking module API name (they usually look like this: Contacts_X_Deals)
