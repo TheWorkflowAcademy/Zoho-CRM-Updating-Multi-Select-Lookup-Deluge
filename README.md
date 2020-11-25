@@ -19,7 +19,7 @@ response = invokeurl
 [
 	url: "https://www.zohoapis.com/crm/v2/settings/modules"
 	type: GET
-	connection: "zohocrm" //--> Change this to your Connection name
+	connection: "INSERT YOUR CONNECTION NAME HERE"
 ];
 info response;
 ```
